@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+//extending thread method
 
 class myThread extends  Thread{
     public void run(){
