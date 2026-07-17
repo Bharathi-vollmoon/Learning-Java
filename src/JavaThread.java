@@ -26,6 +26,7 @@ class myThread implements Runnable {
         public static void main(String args[]) {
             myThread call = new myThread();
 
+            //creating new thread object to call the runnable object
             Thread fam = new Thread(call);
             fam.start();
         }
