@@ -29,5 +29,6 @@ public class LambdaExpressions {
             return result;
             };
         System.out.println(multi.multiple(4));
+
     }
 }
